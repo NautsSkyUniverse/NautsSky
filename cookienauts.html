@@ -1,0 +1,308 @@
+
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CookieNauts - Kue Artisanal</title>
+    <meta name="description" content="CookieNauts - Kue artisanal dengan bahan premium" />
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Spectral:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+
+  <body class="cookienauts-page">
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar cookienauts-navbar">
+      <div class="container">
+        <div class="navbar-content">
+          <!-- Logo -->
+          <a href="index.html" class="logo">
+            <i data-feather="coffee" class="logo-icon"></i>
+            <span class="logo-text font-spectral">CookieNauts</span>
+          </a>
+
+          <!-- Desktop menu -->
+          <div class="desktop-menu">
+            <a href="index.html" class="menu-item">Home</a>
+            <a href="cookienauts.html" class="menu-item active">
+              <span class="cookie-link">
+                CookieNauts
+                <i data-feather="coffee" class="cookie-icon"></i>
+              </span>
+            </a>
+          </div>
+
+          <!-- Mobile menu button -->
+          <button id="mobile-menu-btn" class="mobile-menu-btn cookienauts-menu-btn" aria-label="Toggle menu">
+            <i data-feather="menu" class="menu-icon"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile menu -->
+      <div id="mobile-menu" class="mobile-menu cookienauts-mobile-menu hidden">
+        <div class="mobile-menu-items">
+          <a href="index.html" class="mobile-menu-item">Home</a>
+          <a href="cookienauts.html" class="mobile-menu-item">
+            <span>CookieNauts</span>
+            <i data-feather="coffee" class="cookie-icon-mobile"></i>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero cookienauts-hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="icon-container">
+            <i data-feather="coffee" class="hero-icon cookienauts-hero-icon"></i>
+          </div>
+          <h1 class="hero-title font-spectral">Cookie Nauts</h1>
+          <p class="hero-subtitle">Kue artisanal yang dibuat dengan bahan premium dan rasa inovatif</p>
+          <a href="#menu" class="hero-cta cookienauts-cta">
+            Jelajahi Menu
+            <i data-feather="arrow-right-circle" class="cta-icon"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title font-spectral">Menu Kue Kami</h2>
+          <p class="section-subtitle">Jelajahi pilihan kue lezat buatan tangan kami yang dibuat dengan cinta dan bahan premium</p>
+        </div>
+
+        <div class="cookie-grid">
+          <!-- Cookie 1 -->
+          <div class="cookie-card" style="animation-delay: 0ms;">
+            <div class="cookie-image-container">
+              <img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400&q=80" alt="Bloody Marry's" class="cookie-image">
+            </div>
+            <h3 class="cookie-name font-spectral">Bloody Marry's</h3>
+            <p class="cookie-price font-spectral">$2.3</p>
+          </div>
+
+          <!-- Cookie 2 -->
+          <div class="cookie-card" style="animation-delay: 100ms;">
+            <div class="cookie-image-container">
+              <img src="https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400&q=80" alt="Warner Peanut's" class="cookie-image">
+            </div>
+            <h3 class="cookie-name font-spectral">Warner Peanut's</h3>
+            <p class="cookie-price font-spectral">$1.8</p>
+          </div>
+
+          <!-- Cookie 3 -->
+          <div class="cookie-card" style="animation-delay: 200ms;">
+            <div class="cookie-image-container">
+              <img src="https://images.unsplash.com/photo-1596023070633-7d4e3c2182c7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400&q=80" alt="Cramberry" class="cookie-image">
+            </div>
+            <h3 class="cookie-name font-spectral">Cramberry</h3>
+            <p class="cookie-price font-spectral">$3.5</p>
+          </div>
+
+          <!-- Cookie 4 -->
+          <div class="cookie-card" style="animation-delay: 300ms;">
+            <div class="cookie-image-container">
+              <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400&q=80" alt="Dulce de Leche" class="cookie-image">
+            </div>
+            <h3 class="cookie-name font-spectral">Dulce de Leche</h3>
+            <p class="cookie-price font-spectral">$2.2</p>
+          </div>
+
+          <!-- Cookie 5 -->
+          <div class="cookie-card" style="animation-delay: 400ms;">
+            <div class="cookie-image-container">
+              <img src="https://images.unsplash.com/photo-1590080874088-eec64895b423?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400&q=80" alt="S'more Cookies" class="cookie-image">
+            </div>
+            <h3 class="cookie-name font-spectral">S'more Cookies</h3>
+            <p class="cookie-price font-spectral">$2.4</p>
+          </div>
+
+          <!-- Cookie 6 -->
+          <div class="cookie-card" style="animation-delay: 500ms;">
+            <div class="cookie-image-container">
+              <img src="https://images.unsplash.com/photo-1598839950984-034f6dc7b2a8?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400&q=80" alt="Dulce de Leche" class="cookie-image">
+            </div>
+            <h3 class="cookie-name font-spectral">Dulce de Leche</h3>
+            <p class="cookie-price font-spectral">$2.3</p>
+          </div>
+
+          <!-- Cookie 7 -->
+          <div class="cookie-card" style="animation-delay: 600ms;">
+            <div class="cookie-image-container">
+              <img src="https://images.unsplash.com/photo-1614145121029-83a9f7b68bf4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400&q=80" alt="Pearl Balls" class="cookie-image">
+            </div>
+            <h3 class="cookie-name font-spectral">Pearl Balls</h3>
+            <p class="cookie-price font-spectral">$2.3</p>
+          </div>
+
+          <!-- Cookie 8 -->
+          <div class="cookie-card" style="animation-delay: 700ms;">
+            <div class="cookie-image-container">
+              <img src="https://images.unsplash.com/photo-1599599810769-bcde5a160d32?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400&q=80" alt="Butter & Salty" class="cookie-image">
+            </div>
+            <h3 class="cookie-name font-spectral">Butter & Salty</h3>
+            <p class="cookie-price font-spectral">$2.1</p>
+          </div>
+
+          <!-- Cookie 9 -->
+          <div class="cookie-card" style="animation-delay: 800ms;">
+            <div class="cookie-image-container">
+              <img src="https://images.unsplash.com/photo-1618923850107-d1a234d7a73a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400&q=80" alt="Green Flore" class="cookie-image">
+            </div>
+            <h3 class="cookie-name font-spectral">Green Flore</h3>
+            <p class="cookie-price font-spectral">$2.2</p>
+          </div>
+        </div>
+
+        <!-- Drinks Section -->
+        <div class="drinks-section">
+          <h3 class="drinks-title font-spectral">DRINK & LATTE</h3>
+          <div class="drinks-list">
+            <div class="drink-item" style="animation-delay: 0ms;">
+              <span class="drink-name font-spectral">Cuddel Cup</span>
+              <span class="drink-price font-spectral">$4.50</span>
+            </div>
+            <div class="drink-item" style="animation-delay: 150ms;">
+              <span class="drink-name font-spectral">Sweet Nuzzle</span>
+              <span class="drink-price font-spectral">$5.00</span>
+            </div>
+            <div class="drink-item" style="animation-delay: 300ms;">
+              <span class="drink-name font-spectral">Matcha Vista</span>
+              <span class="drink-price font-spectral">$5.50</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hiring Section -->
+    <section id="hiring" class="hiring-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title font-spectral">Bergabunglah Dengan Tim Kami</h2>
+          <p class="section-subtitle">Kami mencari individu yang penuh semangat untuk bergabung dengan keluarga CookieNauts</p>
+        </div>
+
+        <div class="job-application">
+          <div class="job-header">
+            <h2 class="job-title font-spectral">
+              KAMI SEDANG
+              <span class="block">MEREKRUT</span>
+            </h2>
+            <div class="apply-button-top">
+              <a href="#apply" class="apply-link">Bergabung Dengan Tim Kami di Cookie Nauts!</a>
+            </div>
+          </div>
+
+          <div class="job-position">
+            <h3 class="position-title font-spectral">PELAYAN/PELAYANI</h3>
+          </div>
+
+          <div class="job-description">
+            <p class="description-text font-spectral">
+              Apakah Anda siap untuk berkontribusi pada perusahaan yang berkembang dan inovatif? 
+              Bergabunglah dengan Cookie Nauts dan tumbuhlah bersama kami!
+            </p>
+          </div>
+
+          <div class="qualifications">
+            <div class="qualifications-header">
+              <h4 class="qualifications-title font-spectral">KUALIFIKASI</h4>
+            </div>
+
+            <ul class="qualifications-list">
+              <li class="qualification-item" style="animation-delay: 0ms;">
+                <div class="check-icon">
+                  <i data-feather="check" class="check"></i>
+                </div>
+                <span class="qualification-text font-spectral">Pelayanan Pelanggan yang Luar Biasa</span>
+              </li>
+              <li class="qualification-item" style="animation-delay: 150ms;">
+                <div class="check-icon">
+                  <i data-feather="check" class="check"></i>
+                </div>
+                <span class="qualification-text font-spectral">Efisiensi & Multitasking</span>
+              </li>
+              <li class="qualification-item" style="animation-delay: 300ms;">
+                <div class="check-icon">
+                  <i data-feather="check" class="check"></i>
+                </div>
+                <span class="qualification-text font-spectral">Pengetahuan Produk</span>
+              </li>
+              <li class="qualification-item" style="animation-delay: 450ms;">
+                <div class="check-icon">
+                  <i data-feather="check" class="check"></i>
+                </div>
+                <span class="qualification-text font-spectral">Profesionalisme & Kebersihan</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="apply-section" id="apply">
+            <div class="apply-content">
+              <div class="contact-info">
+                <div class="mail-icon">
+                  <i data-feather="mail" class="mail"></i>
+                </div>
+                <div class="mail-text">
+                  <p class="mail-hint font-spectral">Bergabunglah — Kirim Resume.</p>
+                  <p class="mail-address font-spectral">cookienauts.co@gmail.com</p>
+                </div>
+              </div>
+              
+              <a href="mailto:cookienauts.co@gmail.com" class="apply-button">
+                LAMAR SEKARANG
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+      <div class="container">
+        <div class="contact-content">
+          <div class="visit-info">
+            <h2 class="contact-title font-spectral">Kunjungi Kami</h2>
+            <p class="address font-spectral">3001 Connecticut Ave NW, Washington.</p>
+            <p class="hours font-spectral">Sen-Jum: 8am-8pm | Sab-Min: 9am-6pm</p>
+          </div>
+
+          <div class="contact-buttons">
+            <a href="tel:+085280388895" class="contact-button">
+              <i data-feather="phone" class="contact-icon"></i>
+              0852-8038-8895
+            </a>
+            <a href="mailto:cookienauts.co@gmail.com" class="contact-button">
+              <i data-feather="mail" class="contact-icon"></i>
+              cookienauts.co@gmail.com
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer cookienauts-footer">
+      <div class="container">
+        <div class="footer-content">
+          <p class="copyright">&copy; 2024 CookieNauts - A NautsSky Venture. Seluruh hak cipta dilindungi.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll to top button -->
+    <button id="scrollToTopBtn" class="scroll-to-top hidden" aria-label="Scroll to top">
+      <i data-feather="arrow-up-circle" class="scroll-icon"></i>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>

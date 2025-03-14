@@ -1,0 +1,222 @@
+
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NautsSky - Perusahaan Modern</title>
+    <meta name="description" content="NautsSky - Pusat Perusahaan Modern" />
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Spectral:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar">
+      <div class="container">
+        <div class="navbar-content">
+          <!-- Logo -->
+          <a href="index.html" class="logo">
+            <i data-feather="home" class="logo-icon"></i>
+            <span class="logo-text font-playfair">NautsSky</span>
+          </a>
+
+          <!-- Desktop menu -->
+          <div class="desktop-menu">
+            <a href="index.html" class="menu-item active">Home</a>
+            <a href="cookienauts.html" class="menu-item">
+              <span class="cookie-link">
+                CookieNauts
+                <i data-feather="coffee" class="cookie-icon"></i>
+              </span>
+            </a>
+          </div>
+
+          <!-- Mobile menu button -->
+          <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Toggle menu">
+            <i data-feather="menu" class="menu-icon"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile menu -->
+      <div id="mobile-menu" class="mobile-menu hidden">
+        <div class="mobile-menu-items">
+          <a href="index.html" class="mobile-menu-item">Home</a>
+          <a href="cookienauts.html" class="mobile-menu-item">
+            <span>CookieNauts</span>
+            <i data-feather="coffee" class="cookie-icon-mobile"></i>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="icon-container">
+            <i data-feather="home" class="hero-icon"></i>
+          </div>
+          <h1 class="hero-title font-playfair">NautsSky</h1>
+          <p class="hero-subtitle">Pusat perusahaan modern yang inovatif dan berpikiran maju</p>
+          <a href="#team" class="hero-cta">
+            Lihat Tim Kami
+            <i data-feather="arrow-right-circle" class="cta-icon"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title font-playfair">Tim Kami</h2>
+          <p class="section-subtitle">Kenali para profesional berbakat yang membentuk NautsSky</p>
+        </div>
+
+        <div class="team-grid">
+          <!-- Team Member 1 -->
+          <div class="team-card">
+            <div class="team-image">
+              <div class="image-container" style="background-image: url('https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80')"></div>
+            </div>
+            <div class="team-info">
+              <h3 class="team-name font-playfair">Alex Johnson</h3>
+              <div class="team-position">
+                <i data-feather="briefcase" class="position-icon"></i>
+                CEO & Founder
+              </div>
+              <p class="team-bio">Alex adalah pemimpin visioner dengan lebih dari 15 tahun pengalaman dalam industri teknologi dan memimpin NautsSky dengan inovasi yang tiada henti.</p>
+              <div class="team-contact">
+                <i data-feather="mail" class="contact-icon"></i>
+                <a href="mailto:alex@nautssky.co">alex@nautssky.co</a>
+              </div>
+            </div>
+            <div class="card-action">
+              <i data-feather="arrow-right" class="action-icon"></i>
+            </div>
+          </div>
+
+          <!-- Team Member 2 -->
+          <div class="team-card">
+            <div class="team-image">
+              <div class="image-container" style="background-image: url('https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1061&q=80')"></div>
+            </div>
+            <div class="team-info">
+              <h3 class="team-name font-playfair">Sarah Miller</h3>
+              <div class="team-position">
+                <i data-feather="briefcase" class="position-icon"></i>
+                COO
+              </div>
+              <p class="team-bio">Sarah membawa keahlian operasional yang luar biasa dan strategi yang tajam, memastikan bahwa NautsSky berjalan dengan lancar dan efisien.</p>
+              <div class="team-contact">
+                <i data-feather="mail" class="contact-icon"></i>
+                <a href="mailto:sarah@nautssky.co">sarah@nautssky.co</a>
+              </div>
+            </div>
+            <div class="card-action">
+              <i data-feather="arrow-right" class="action-icon"></i>
+            </div>
+          </div>
+
+          <!-- Team Member 3 -->
+          <div class="team-card">
+            <div class="team-image">
+              <div class="image-container" style="background-image: url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80')"></div>
+            </div>
+            <div class="team-info">
+              <h3 class="team-name font-playfair">David Chen</h3>
+              <div class="team-position">
+                <i data-feather="briefcase" class="position-icon"></i>
+                CTO
+              </div>
+              <p class="team-bio">David adalah ahli teknologi dengan pemahaman mendalam tentang tren dan inovasi terbaru, membimbing perusahaan dengan visi teknisnya.</p>
+              <div class="team-contact">
+                <i data-feather="mail" class="contact-icon"></i>
+                <a href="mailto:david@nautssky.co">david@nautssky.co</a>
+              </div>
+            </div>
+            <div class="card-action">
+              <i data-feather="arrow-right" class="action-icon"></i>
+            </div>
+          </div>
+
+          <!-- Team Member 4 -->
+          <div class="team-card">
+            <div class="team-image">
+              <div class="image-container" style="background-image: url('https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80')"></div>
+            </div>
+            <div class="team-info">
+              <h3 class="team-name font-playfair">Emily Rodriguez</h3>
+              <div class="team-position">
+                <i data-feather="briefcase" class="position-icon"></i>
+                CMO
+              </div>
+              <p class="team-bio">Emily memiliki keahlian dalam membangun strategi marketing yang kreatif dan inovatif, membantu NautsSky tumbuh dan meraih pasar baru.</p>
+              <div class="team-contact">
+                <i data-feather="mail" class="contact-icon"></i>
+                <a href="mailto:emily@nautssky.co">emily@nautssky.co</a>
+              </div>
+            </div>
+            <div class="card-action">
+              <i data-feather="arrow-right" class="action-icon"></i>
+            </div>
+          </div>
+
+          <!-- Team Member 5 -->
+          <div class="team-card">
+            <div class="team-image">
+              <div class="image-container" style="background-image: url('https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80')"></div>
+            </div>
+            <div class="team-info">
+              <h3 class="team-name font-playfair">Daniel Thompson</h3>
+              <div class="team-position">
+                <i data-feather="briefcase" class="position-icon"></i>
+                CFO
+              </div>
+              <p class="team-bio">Daniel mengelola kesehatan finansial perusahaan dengan pengalaman bertahun-tahun dalam manajemen keuangan dan strategi investasi.</p>
+              <div class="team-contact">
+                <i data-feather="mail" class="contact-icon"></i>
+                <a href="mailto:daniel@nautssky.co">daniel@nautssky.co</a>
+              </div>
+            </div>
+            <div class="card-action">
+              <i data-feather="arrow-right" class="action-icon"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CookieNauts Promo Section -->
+    <section class="cookienauts-promo">
+      <div class="container">
+        <div class="promo-content">
+          <div class="promo-icon">
+            <i data-feather="coffee" class="cookie-promo-icon"></i>
+          </div>
+          <h2 class="promo-title font-spectral">CookieNauts</h2>
+          <p class="promo-text">Usaha kecil NautsSky yang menyajikan kue kering artisanal dengan cita rasa yang tak terlupakan</p>
+          <a href="cookienauts.html" class="promo-cta">
+            Kunjungi CookieNauts
+            <i data-feather="arrow-right-circle" class="cta-icon"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <p class="copyright">&copy; 2024 NautsSky. Seluruh hak cipta dilindungi.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
